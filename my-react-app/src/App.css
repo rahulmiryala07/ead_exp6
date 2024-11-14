@@ -1,0 +1,56 @@
+/* src/App.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #282c34;
+  color: #CECFD2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  overflow: hidden;
+  background: url('img2.jpg') ;
+  background-size: cover; 
+
+  
+}
+
+.app-container {
+  display: contain;
+  flex-direction: column;
+  align-items: center; /* Center horizontally */
+}
+
+.timer-container {
+  display: contents;
+  flex-direction: column;
+  align-items: center; /* Center horizontally */
+  justify-content: center; /* Center vertically */
+}
+
+.timer-display {
+  font-size: 4rem;
+  margin-bottom: 20px;
+  border: 2px solid #CECFD2;
+  padding: 20px;
+  border-radius: 10px;
+  background-color:#000(97, 218, 251, 0.2);
+}
+
+.button {
+  background-color: #CECFD2;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  margin: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #d3d3d3;
+}
+
+
